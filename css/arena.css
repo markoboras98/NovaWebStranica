@@ -1,0 +1,45 @@
+
+
+  .header{
+    border-bottom : yellow 3px solid;
+    margin-bottom: 50px;
+  }
+  .responsive {
+    width: 100%;
+    height : auto;
+  }
+  .title {
+	font-size: 40px;
+	text-align: center;
+	font-family: comic;
+}
+  .grid-container {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 40px;
+    grid-template-columns: auto auto auto;
+    
+  }
+  .grid-container > div {
+   background-color : white;
+    text-align: justify;
+    padding: 20px 20px 0px 20px;
+font-size: 20px;
+  }
+
+  .grid-item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .grid-item2{
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .grid-item3{
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .grid-item4{
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }

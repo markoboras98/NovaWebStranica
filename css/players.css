@@ -1,0 +1,45 @@
+
+ 
+
+  
+
+
+
+  .leftcolumn {   
+    float: left;
+    width: 50%;
+  }
+
+  .rightcolumn {
+    float: left;
+    width: 50%;
+    padding-left: 10px;
+  }
+  
+
+
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
+  
+/*rjesenje sa https://www.w3schools.com/howto/howto_css_clearfix.asp*/
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+ 
+  
+  
+  
+   @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }

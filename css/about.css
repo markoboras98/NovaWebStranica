@@ -1,0 +1,101 @@
+
+.topnav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 20px 10px 0px;
+    overflow: hidden;
+    background-color: blueviolet;
+    border-bottom : yellow 3px solid;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 20px;
+  }
+  .topnav li {
+    float: right;
+    
+  }
+.topnav li.left {
+        float: left;
+        color : #ffffff;
+        font-size:40px;
+        padding : 0px 0px 0px 20px;}
+.topnav .highlight{
+    color :yellow;
+    font-weight: bold;
+}
+
+  .topnav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+  }
+
+  .topnav li a:hover{
+      background-color: black;
+  }
+
+  .topnav li.active{
+      background-color:rgba(255, 255, 0, 0.61);
+      color:black;
+  }
+  
+  
+  
+section{
+    margin-top: 150px;
+}
+
+  article{
+    
+    padding: 10px;
+    float:left;
+    width:65%;
+    font-size: 18px;
+}
+
+#aboutus li{
+    list-style-type: none;
+    padding: 20px;
+    margin-bottom: 10px;
+    background: #e6e6e6;
+}
+aside{
+    float:right;
+    width: 35%;
+    margin-top:75px;
+}
+.darkabout{
+    padding:10px 20px 10px 20px;
+    background:#35424a;
+    color:#ffffff;
+    
+    margin-right: 30px;
+   
+ 
+  }
+  .quote input, .quote textarea{
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+.button_1{
+    height: 38px;
+    width:30%;
+    background: yellow;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+

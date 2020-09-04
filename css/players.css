@@ -1,11 +1,5 @@
 
- 
-
-  
-
-
-
-  .leftcolumn {   
+ .leftcolumn {   
     float: left;
     width: 50%;
   }
@@ -15,9 +9,6 @@
     width: 50%;
     padding-left: 10px;
   }
-  
-
-
   .card {
     background-color: white;
     padding: 20px;
@@ -32,11 +23,6 @@
     display: table;
     clear: both;
   }
-
- 
-  
-  
-  
    @media screen and (max-width: 800px) {
     .leftcolumn, .rightcolumn {   
       width: 100%;

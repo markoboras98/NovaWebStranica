@@ -24,13 +24,7 @@
     color :yellow;
     font-weight: bold;
 }
-
- 
-  
- 
- 
-
-  .topnav li a{
+.topnav li a{
     display: block;
     color: white;
     text-align: center;

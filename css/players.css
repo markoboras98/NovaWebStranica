@@ -17,8 +17,7 @@
     
   }
   
-/*rjesenje sa https://www.w3schools.com/howto/howto_css_clearfix.asp*/
-  .row:after {
+ .row:after {
     content: "";
     display: table;
     clear: both;

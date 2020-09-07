@@ -11,8 +11,9 @@
   .footer {
     padding: 5px 20px 5px 20px;
     text-align: center;
-    background: #ddd;
     margin-top: 50px;
+    background-color: blueviolet; 
+    color:white;
   }
   
   
@@ -22,3 +23,6 @@
       width: 100%;
     }
   }
+
+
+   

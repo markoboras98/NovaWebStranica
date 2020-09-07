@@ -21,15 +21,15 @@
 font-size: 20px;
   }
   
-  .item1 {
+  .grid-item1 {
     grid-column-start: 1;
     grid-column-end: 3;
   }
-  .item3 {
+  .grid-item3 {
     grid-column-start: 1;
     grid-column-end: 3;
   }
-  .item5 {
+  .grid-item5 {
     grid-column-start: 1;
     grid-column-end: 3;
   }
@@ -44,7 +44,7 @@ font-size: 20px;
     background-color: white;
     width: 100%;
     margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+   
+    
+   
   }

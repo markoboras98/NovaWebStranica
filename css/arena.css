@@ -15,10 +15,7 @@
 }
   .grid-container {
     display: grid;
-    grid-column-gap: 10px;
     grid-row-gap: 40px;
-    grid-template-columns: auto auto auto;
-    
   }
   .grid-container > div {
    background-color : white;
@@ -27,19 +24,4 @@
 font-size: 20px;
   }
 
-  .grid-item1{
-    grid-column-start: 1;
-    grid-column-end: 4;
-  }
-  .grid-item2{
-    grid-column-start: 1;
-    grid-column-end: 4;
-  }
-  .grid-item3{
-    grid-column-start: 1;
-    grid-column-end: 4;
-  }
-  .grid-item4{
-    grid-column-start: 1;
-    grid-column-end: 4;
-  }
+  

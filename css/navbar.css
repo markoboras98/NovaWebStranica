@@ -4,7 +4,6 @@
     padding: 10px 20px 10px 0px;
     overflow: hidden;
     background-color: blueviolet;
-    
     border-bottom : yellow 3px solid;
     position: fixed;
     top: 0;
@@ -38,5 +37,5 @@
 
   .topnav li.active{
       background-color:rgba(255, 255, 0, 0.61);
-      color:black;
+      
   }
